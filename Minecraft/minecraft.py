@@ -13,7 +13,7 @@ port = 65535
 cli = socket(AF_INET, SOCK_STREAM)
 main = Ursina(title="Minecraft", icon="Assets/Logo/logo.png") 
 window.fullscreen = True
-player = FirstPersonController(model="Assets/Player/Player.glb",rotation_y=-90, color=color.white)
+player = FirstPersonController(color=color.white)
 Sky()
 
 # Functions for load and save game
