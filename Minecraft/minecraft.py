@@ -3,10 +3,11 @@
 # Always update.
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
-import ctypes
+import ctypes, stat
 from datetime import datetime
 from typing import Any
 from keyboard import is_pressed 
+from ursina.application import quit
 from json import dump, load
 from socket import socket, AF_INET, SOCK_STREAM
 port = 65535
@@ -85,7 +86,7 @@ class MinecraftMenu(Entity):
 
         self.start_btn = create_mc_button('play.ico', 0.1, self.start_game)
         self.load_btn = create_mc_button('options.ico', -0.05, load_game)
-        self.quit_btn = create_mc_button('quit.ico', -0.2, application.quit, save_game)
+        self.quit_btn = create_mc_button('quit.ico', -0.2, quit, save_game)
     
     
     def start_game(self):
@@ -165,7 +166,11 @@ list_log = [
     "[END LOG]\n"
 ]
 current = str()
-file=open("log.txt", "w")
+try:
+    file=open("log.txt", stat.S_IWRITE)
+except PermissionError as p:
+    script = os.path.abspath(sys.argv[0])
+    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, f'"{script}"', None, 1)
 doc=open("documentaries.txt", "w")
 hovered = None
 a = -0.5
