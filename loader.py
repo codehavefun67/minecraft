@@ -32,7 +32,7 @@ class ModMinecraft(tk.Button):
             )
     def load(self):
         script_dir = o.path.dirname(o.path.abspath(__file__))
-        file_path = o.path.join(script_dir, "Minecraft_FFlags", "main.py")
+        file_path = o.path.join(script_dir, "Minecraft_FFlags2", "main.py")
         if o.path.exists(file_path):
             sp.Popen(["python", file_path])
             sp.run("cls", shell=True)
