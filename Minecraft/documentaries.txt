@@ -1,0 +1,4 @@
+This is Minecraft using Python.
+The game is in development. 
+Always update.
+If you have problems, please contact me at tinhoctre847@gmail.com

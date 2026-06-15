@@ -1,0 +1,19 @@
+[2026-06-15 19:33:16.282907][INFO] Game initialized.
+[2026-06-15 19:33:16.282907][INFO] Ursina Engine initialized.
+[2026-06-15 19:33:16.282907][INFO] Game Server initialized.
+[2026-06-15 19:33:16.282907][INFO] Exception server initialized.
+[2026-06-15 19:33:16.282907][INFO] Third and First person initialized.
+[2026-06-15 19:33:16.282907][INFO] Webhook server initialized.
+[2026-06-15 19:33:16.282907][from ursina]info: Using primary monitor: Monitor(x=0, y=0, width=1920, height=1080, width_mm=293, height_mm=165, name='\\.\DISPLAY1', is_primary=True.
+)[2026-06-15 19:33:16.282907][from ursina]:prc(warning): Invalid integer value for ConfigVariable win-size: 864.0.
+[2026-06-15 19:33:16.282907][from ursina]:prc(warning): Invalid integer value for ConfigVariable win-size: 1536.0.
+[2026-06-15 19:33:16.282907][from ursina]Known pipe types: wglGraphicsPipe (3 aux display modules not yet loaded.).
+[2026-06-15 19:33:16.282907][from ursina]set window position: Vec2(192, 108)[2026-06-15 19:33:16.282907][from ursina]:prc(warning): changing default value for ConfigVariable paste-emit-keystrokes from '1' to '0'.
+[2026-06-15 19:33:16.282907][from ursina]:pnmimage:png(warning): iCCP: known incorrect sRGB profile[2026-06-15 19:33:16.282907][from ursina]package_folder: C://Users//Python Developer//AppData//Local//Programs//Python//Python311//Lib//site-packages//ursina.
+[2026-06-15 19:33:16.282907][from ursina]asset_folder: d:\Minecraft.
+[2026-06-15 19:33:16.282907][from ursina]os: Windows.
+[2026-06-15 19:33:16.282907][from ursina]development mode: True.
+[2026-06-15 19:33:16.282907][from ursina]application successfully started.
+[2026-06-15 19:33:16.282907][from ursina]info: changed aspect ratio: 1.778 -> 1.778.
+[END LOG]
+[2026-06-15 20:01:49.901159][INFO] Switched to Third Person.
